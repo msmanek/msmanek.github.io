@@ -14,8 +14,24 @@ section {
 	font-size:100px;
 }*/
 
+html {
+    /* Size of largest container or bigger */
+    min-width: 1080px;
+}
 
 .front-panel, .projects-panel {
 	background-color:#283018;
 	padding:50px;
+}
+
+.text {
+	color:#fff;
+}
+
+.email-icon { margin-bottom: .3em; }
+
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
