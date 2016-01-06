@@ -1,0 +1,21 @@
+/*body {
+	background-color:#e1e8f0;
+}
+
+nav {
+	background-color:#bbc4ef;
+}
+
+section {
+	background-color:#62bcfa;
+}
+
+.hello {
+	font-size:100px;
+}*/
+
+
+.front-panel, .projects-panel {
+	background-color:#283018;
+	padding:50px;
+}
