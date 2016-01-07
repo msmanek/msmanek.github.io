@@ -4,7 +4,11 @@ body {
 	position:relative;
 }
 
-a:hover {
+a.personal-project-link:hover {
+	color:#fff;
+}
+
+a.home-link {
 	color:#fff;
 }
 
