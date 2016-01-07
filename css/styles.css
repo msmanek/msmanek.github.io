@@ -1,37 +1,66 @@
-/*body {
-	background-color:#e1e8f0;
+body {
+	background-color:#729f98;
+	font-family: 'Open Sans', sans-serif;
+	position:relative;
 }
 
-nav {
-	background-color:#bbc4ef;
+a:hover {
+	color:#fff;
 }
 
-section {
-	background-color:#62bcfa;
+.nav-title {
+	font-variant: small-caps;
+	font-size:30px;
 }
 
-.hello {
-	font-size:100px;
-}*/
-
-html {
-    /* Size of largest container or bigger */
-    min-width: 1080px;
+.navbar {
+	background-color:#f0eceb;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
 }
 
-.front-panel, .projects-panel {
-	background-color:#283018;
+
+.divider-row {
+	padding:10px;
+	background-color: #729f98;
+}
+
+.divider-row-headings {
 	padding:50px;
+	background-color: #729f98;
+}
+
+
+.front-page-panel, .projects-panel, .bottom-panel {
+	background-color:#283018;
+	padding:40px;
+	color:#fff;
 }
 
 .text {
 	color:#fff;
 }
 
-.email-icon { margin-bottom: .3em; }
+.heading {
+	color:#fff;
+	text-align:center;
+}
+
+.code-logo {
+	font-size: 135px;
+	color:#fff;
+	text-align:center;
+
+}
+
 
 .element {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.red {
+	color:#f00;
 }

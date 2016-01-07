@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
     <title>MohammedShabbar Manek</title>
 
     <!-- Bootstrap -->
@@ -26,12 +29,12 @@
 
 
 
-  <body style="background-color:#729f98">
+  <body>
 
 <!--     Header/Navbar (which does not do much navigation yet...) -->
 
     <section>
-      <nav class="navbar" style="background-color:#f0eceb" role="navigation">
+      <nav class="navbar" role="navigation">
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-12">
@@ -42,26 +45,32 @@
                 </span>
               </div>
               <br>
-              <a class="navbar-brand" style="font-size:25px" href="./index.html">MohammedShabbar Manek</a>
+              <a class="navbar-brand nav-title" href="./index.html">MohammedShabbar Manek</a>
 
-              <ul class="nav navbar-nav navbar-right">
-                <li>
+<!--               <ul class="nav navbar-nav navbar-right">
+                <li style="font-size:26px;font-variant: small-caps">
+                  Home
                 </li>
-                <li>
+                <li style="font-size:26px;font-variant: small-caps">
+                  About Me
                 </li>
-                <li>
+                <li style="font-size:26px;font-variant: small-caps">
+                  Projects
                 </li>
 
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
       </nav>
     </section>
 
+    <div class="row-fluid divider-row-headings"></div>
+
+
     <!-- Picture and about me section -->
 
-    <section style="background-color:#283018; padding:50px">
+    <section class="front-page-panel">
       <div class="container-fluid">
 
         <div class="row">
@@ -69,33 +78,37 @@
             <img src="./img/msmanek-pic.jpg" alt="msmanek" class="img-circle img-responsive"/>
           </div>
           <div class="col-sm-8">
-            <div class="row" style="color:#ffffff">
+            <div class="row-fluid">
               <div class="col-md-10 col-md-offset-1">
-                <h1>Welcome!</h1>
+                <h1>Hi, I'm Mohammed!</h1>
                 <p>
-                  My name is MohammedShabbar Manek. I am currently a student at the University of Toronto, where I study <a href="https://www.mie.utoronto.ca/">Industrial Engineering</a>.
+                  I am a student at the University of Toronto, where I study <a href="https://www.mie.utoronto.ca/">Industrial Engineering</a>. I have a keen interest in business and technology. Specificially, I am intrigued by the power sofware has to improve a business as a whole.
                 </p>
                 <p>
-                  This webpage serves as a living document of all that I have done, essentially a portfolio. As such, it is a perpetual work in progress!
+                  I believe that in many ways, technology has fundamentally changed how we interact with the world but sometimes this change has not been optimal for people. I am a huge believer in human centred design, and aspire to put humans first in everything I build.
                 </p>
                 <p>
-                  Please feel free to click on the links below to connect with me!
+                  This webpage serves as a living document of some of the things that I have done; a portfolio. As such, it is a perpetual work in progress!
                 </p>
+                <p>
+                  Click the links below to connect with me!
+                </p>
+                <br>
 
                 <div class="btn-group" role="group">
                   <a href="http://linkedin.com/in/msmanek" target="_blank">
                     <button type="button" class="btn btn-default">
-                      <i class="fa fa-linkedin fa-2x"></i>
+                      <i class="fa fa-linkedin fa-3x"></i>
                     </button>
                   </a>
                   <a href="http://github.com/msmanek" target="_blank">
                     <button type="button" class="btn btn-default">
-                      <i class="fa fa-github fa-2x"></i>
+                      <i class="fa fa-github fa-3x"></i>
                     </button>
                   </a>
                   <a href="mailto:shabbar_manek@live.com">
                     <button type="button" class="btn btn-default">
-                      <i class="fa fa-envelope-o fa-2x"></i>
+                      <i class="fa fa-envelope-o fa-3x"></i>
                     </button>
                   </a>
                 </div>
@@ -107,6 +120,7 @@
         </div>
       </div>
     </section>
+    <div class="row-fluid divider-row"></div>
 
 
     <section class="projects-panel">
@@ -114,46 +128,80 @@
         <h1 class="text">Personal Projects</h1>
         <p class="text">Below are some personal projects that I have worked on in the past</p>
 
-        <div class="row divider-row"></div>
 
         <div class="row">
           <div class="col-md-4">
-            <img src="./img/Onyx-Motion-Site.png" alt="msmanek" class="img-responsive"/>
-            <h3 class="text">Onyx Motion</h3>
+            <a href="http://onyxmotion.com" target="_blank">
+              <img src="./img/Onyx-Motion-Site.png" alt="msmanek" class="img-responsive"/>
+              <h3 class="heading">Onyx Motion's Website Design</h3>
+            </a>
+            <br/>
             <p class="text">
               I added visual elements to the Onyx Motion Website to help convey some of the applications of Swish, Onyx Motion's sports coaching app for wearables.
             </p>
             <p class="text">
-              A major challenge that I had, working on the Onyx Motion site was learning how to use jQuery to modify video elements in a webpage. I had no prior experience with it and had to spend a great deal of time understanding its syntax and how I could levrage it for the site.
+              When working on the site, a major challenge that I had was learning how to use jQuery to modify video elements in a webpage. I had no prior experience with it and had to spend a great deal of time understanding its syntax and how I could levrage it for the site.
+            </p>
+            <p>
+              Another challenge I had was ensuring that everything is correctly aligned on the site. By struggling to understand the powerful row and column system given by Bootstrap, I was able to create a beautiful, well-aligned section of the site. And, this experience has enabled me to do well in future projects such as my portfolio (which is what you are reading right now).
             </p>
           </div>
+
           <div class="col-md-4">
-            <h3>Project 2</h3>
+            <a href="https://github.com/msmanek/Java-Stable-Marriage-Problem-v2">
+              <h1 class="heading">
+                <i class="fa fa-code fa-3x code-logo"></i>
+              </h1>
+              <h3 class="heading">High School Admissions Automation</h3>
+            </a>
+            <br>
+            <p>
+              As a part of my class on the the Fundamentals of Object Oriented Programming (MIE 250), I created a program to help assign students to high schools. The program had to account for GPA, extra curriculars and student preference to assign them to schools.
+            </p>
+            <p>
+              This program implemented the Gale-Shapely algorithm, which is suitor optimal. In my implementation of the Gale-Shapely algorithm, the students were the suitors and the schools were the recievers. I applied various optimizations to ensure algorithm efficiency. In the end, My algorithm was able to make 2000 matches in less than 750ms.
+            </p>
           </div>
+
           <div class="col-md-4">
-            <img src="./img/Canadian-Muslim-Vote-Site.jpg" alt="Canadian Muslim Vote Site" class="img-responsive"/>
-            <h3 class="text">The Canadian-Muslim Vote</h3>
+            <a href="http://canadianmuslimvote.ca" target="_blank">
+              <img src="./img/Canadian-Muslim-Vote-Site.jpg" alt="Canadian Muslim Vote Site" class="img-responsive"/>
+              <h3 class="heading">The Canadian-Muslim Vote Website Redesign</h3>
+            </a>
+            <br>
             <p class="text">
               The Canadian-Muslim Vote is a national, non-partisan, educational organization whose aim is to increase Muslim civic engagement. I led the redesign of the two main educational sections of the Canadian-Muslim Vote's website, incorporating various elements such as videos and images.
             </p>
             <p class="text">
               The educational content within the site was very text heavy, and I realized early on that I had to do things to add to the readability of the text. So, I decided to do the following:
+            </p>
               <ul class="text">
                 <li>
-                  Highlight important parts of the text using <strong>strong, bold</strong> font (see Post Election Results Section pictured and here)
+                  Highlight important text using <span class="red">color</span><!--  (see Post Election Results Section) -->
                 </li>
                 <li>
-                  Visually arange text so that it is easy to digest (see speech from the throne section here)
+                  Visually arange text into readable chunks <!-- (see Speech from the Throne Section) -->
                 </li>
                 <li>
-                  Hide text (when possible) and give users the option to show it (see MP Mandate Letters Section here)
+                  Hide text (when possible) and give users the power to toggle hidden text <!-- (see MP Mandate Letters Section) -->
                 </li>
               </ul>
-            </p>
+              <p>
+                All of these design features helped make the new sections informative and readable.
+              </p>
           </div>
         </div>
       </div>
     </section>
+
+    <div class="row-fluid divider-row"></div>
+
+    <section class="bottom-panel">
+      <div class="row-fluid">
+        This was made with the help of <a href="http://getbootstrap.com/" target="_blank">Twitter's Bootstrap</a>, <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome Icons</a>, and <a href="https://www.google.com/fonts/specimen/Open+Sans" target="_blank">Google Fonts Open Sans</a>.
+      </div>
+    </section>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
