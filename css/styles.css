@@ -1,5 +1,5 @@
 body {
-	background-color:#729f98;
+	background-color:#008B00;
 	font-family: 'Open Sans', sans-serif;
 	position:relative;
 }
@@ -27,12 +27,12 @@ a.home-link {
 
 .divider-row {
 	padding:10px;
-	background-color: #729f98;
+	background-color: #008B00;
 }
 
 .divider-row-headings {
 	padding:50px;
-	background-color: #729f98;
+	background-color: #008B00;
 }
 
 
