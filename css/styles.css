@@ -28,17 +28,17 @@ a.home-link {
 
 .divider-row {
 	padding:10px;
-	background-color: #008B00;
+	background-color: #34CECC;
 }
 
 .divider-row-headings {
 	padding:50px;
-	background-color: #008B00;
+	background-color: #34CECC;
 }
 
 
 .front-page-panel, .projects-panel, .bottom-panel {
-	background-color:#283018;
+	background-color:#33BBBA;
 	padding:40px;
 	color:#fff;
 }
